@@ -59,20 +59,20 @@ flutter:
   fonts:
     - family: Raleway
       fonts:
-        - asset: fonts/Raleway-Regular.ttf
-        - asset: fonts/Raleway-Bold.ttf
+        - asset: assests/fonts/Raleway-Regular.ttf
+        - asset: assests/fonts/Raleway-Bold.ttf
           weight: 700
-        - asset: fonts/Raleway-Black.ttf
+        - asset: assests/fonts/Raleway-Black.ttf
           weight: 900
 
     - family: RobotoCondensed
       fonts:
-        - asset: fonts/RobotoCondensed-Regular.ttf
-        - asset: fonts/RobotoCondensed-Bold.ttf
+        - asset: assests/fonts/RobotoCondensed-Regular.ttf
+        - asset: assests/fonts/RobotoCondensed-Bold.ttf
           weight: 700
-        - asset: fonts/RobotoCondensed-Light.ttf
+        - asset: assests/fonts/RobotoCondensed-Light.ttf
           weight: 300
-        - asset: fonts/RobotoCondensed-Italic.ttf
+        - asset: assests/fonts/RobotoCondensed-Italic.ttf
           style: italic
   #   - family: Trajan Pro
   #     fonts:
