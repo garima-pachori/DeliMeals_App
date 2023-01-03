@@ -6,12 +6,12 @@ class MealDetailScreen extends StatelessWidget {
   static const routeName="/meal-detail";
 
   Widget buildSectionTitle(BuildContext context ,String text){
-      Container(
+      return Container(
             margin: EdgeInsets.symmetric(
               vertical: 10,
             ),
             child: Text(
-              'Ingredients',
+              text,
               style: Theme.of(context).textTheme.headline6,
             ),
           );
@@ -26,8 +26,8 @@ class MealDetailScreen extends StatelessWidget {
               ),
               borderRadius: BorderRadius.circular(10),
             ),
-            margin: EdgeInsets.all(10),
-            padding: EdgeInsets.all(10),
+            margin: EdgeInsets.all(5),
+            padding: EdgeInsets.all(5),
             height: 200,
             width: 300,
             child: child,
